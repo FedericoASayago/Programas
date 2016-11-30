@@ -109,3 +109,7 @@ span{
 	position: relative;
 	left: 150px;
 }
+@font-face {
+font-family: Parry Hotter;
+src: url(Parry-Hotter.ttf);
+}
