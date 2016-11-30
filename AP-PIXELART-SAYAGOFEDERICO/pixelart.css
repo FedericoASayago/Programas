@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url("Fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.acciones_botones{
+   clear: both;
+}
+#container {
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#container .cell {
+    float: left;
+    background: #ecf0f1;
+    outline: 1px solid #fff;
+    cursor: pointer;
+}
+
+#container .cell.no-border {
+    outline: none;
+}
+
+.actions {
+    height: 150px;
+    width: 400px;
+    margin: 10px auto;
+}
+
+.btn {
+    font-size: 30px;
+    color: #2c3e50;
+    border: 1px solid #2c3e50;
+    background: #ffffff;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    float: left;
+    margin: 0 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #3498db;
+    color: #ffffff;
+    border-color: #3498db;
+}
+
+.acciones__botones {
+    width: 180px;
+    float: left;
+}
+
+#color-pick {
+    height: auto;
+    width: 220px;
+    float: left;
+}
+
+#color-pick>div {
+    float: left;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+    border-radius: 24px;
+    margin: 2px;
+    border: 1px solid #f1f1f1;
+}
+
+#color-pick>div.select {
+    border: 1px solid #000;
+}
+
+.grilla {
+    width: 170px;
+    border: 1px solid #2c3e50;
+    border-radius: 20px;
+    overflow: auto;
+    padding: 14px 14px;
+    margin: 10px;
+}
+
+.grilla p {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Arial', sans-serif;
+    float: left;
+}
+
+.grilla input {
+    float: left;
+    width: 50px;
+    height: 20px;
+    border: 0;
+    border-bottom: 1px solid #3498db;
+    margin-left: 12px;
+}
+
+.grilla .btn {
+    border: 0;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    float: right;
+}
+
+.grilla .btn:hover {
+    background: #ffffff;
+    color: #3498db;
+}
+
+.app{
+    width: 70%;
+    float: right;
+}
+.texto {
+    width: 30%;
+    float:left;
+}
+.parrafo {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    top:200px;
+    left:250px;
+}

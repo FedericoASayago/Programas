@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Puzzle Raveclaw</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Estilo/juego.css">
+	<link href="http://allfont.net/allfont.css?fonts=parry-hotter" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src=https://code.jquery.com/jquery-3.1.0.min.js></script>
+	<script type="text/javascript" src="Comportamiento/juego.js"></script>
+</head>
+<body id="todo">
+	<audio src="pieza/HP-Hedwig's-Theme.mp3" autoplay loop></audio>
+ <div id="principal">
+ 	<h1>Bienvenido a Hogwarts!</h1>
+ 	<p>Ayudanos a resolver el inconveniente ocurrido en el castillo...</p>
+ 	<h3>Primero selecciona tu nivel:</h3>
+ 	<div id="inputs">
+	 	<input type="radio" name="nivel" value="100" class="selecciona"><span>Fácil</span><br>
+	 	<input type="radio" name="nivel" value="500" class="selecciona"><span>Intermedio</span><br>
+	  	<input type="radio" name="nivel" value="1000" class="selecciona"><span>Difícil</span><br>
+	</div>
+	  	<input type="button" name="start" value="Empezar" onclick="start()" id="boton">
+  	
+ </div>
+ <div id="nivel1">
+	<div id="texto">
+		<div class="titulo">
+			<h1>Rompecabezas</h1>
+			<p>OH! NO! Lord Voldemort ha desecho el escudo de Ravenclaw! Ayuda a Luna y sus amigos a formarlo nuevamente...</p>
+		</div>
+		<div class="objetivo">
+			<img src="pieza/escudo-ravenclaw2.png">
+			<h3>Objetivo:</h3>
+			<p>Intenta armar el escudo guiándote con la imagen completa</p>
+		</div>
+		<div class="instrucciones">
+			<img src="pieza/flechas.png">
+			<h3>Instrucciones:</h3>
+			<p>Mueve las piezas con las flechas del teclado hasta formar la imagen</p>
+		</div>
+	</div>
+	<div id="juego">
+		<div class="iniciar">
+			<img src="pieza/Ganar.gif" id="ganar">
+		</div>			
+	</div>
+ </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <script src="pixelart.js"></script>  
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+    <script src="html2canvas.js"></script>
+    <link rel="stylesheet" href="pixelart.css" />
+    <title>Egypt Pixelart</title>
+</head>
+
+<body> 
+    <div class="texto">
+        <p class="parrafo">Los egipcios hacían pictogramas en las paredes para dejar sentado lo que ocurría... te invito a crear tus propias obras de arte con el PIXELART! Sólo tienes que elegir un color y a dibujar... cuando ya consideres que tu obra de arte está terminada, guardala para verla luego!! </p>
+    </div>
+    <div class="app">
+            <div id="container">
+            </div>
+            <div class="actions">
+                <div id="color-pick">
+                    <div class="#1abc9c"></div>                
+                    <div class="#2ecc71"></div> 
+                    <div class="#00ff00"></div>                
+                    <div class="#3498db"></div>
+                    <div class="#8e44ad"></div>
+                    <div class="#34495e"></div>
+                    <div class="#f1c40f"></div>
+                    <div class="#f39c12"></div>                    
+                    <div class="#d35400"></div>
+                    <div class="#ff0000"></div>
+                    <div class="#ffffff"></div>
+                    <div class="#ecf0f1"></div>
+                    <div class="#bdc3c7"></div>
+                    <div class="#7f8c8d"></div>
+                    <div class="#000000"></div>
+                </div>
+                <div class="acciones__botones">
+                    <div class="grilla">
+                        <p>Tamaño</p>
+                        <input type="text" name="resize" id="resize" value="" />
+                        <button id="sizeit" class="btn"><span class="ion-android-arrow-forward"></span></button>
+                    </div>
+                    <button id="reset" class="btn"><span class="ion-ios-trash"></span></button>
+                    <button id="toggle-border" class="btn"><span class="ion-ios-grid-view-outline"></span></button>
+                    <button id="grab-it" class="btn"><span class="ion-checkmark-round"></span></button>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
